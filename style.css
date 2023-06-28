@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: maroon;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-overlay {
+  background-color: maroon;
+  color: white;
+}
+
+.sticky-scrolling {
+  background-color: rgba(128, 128, 0, 0.527);
+  color: white;
+}
+
+
+.parallax-scrolling {
+  background-color: chocolate;
+  color: white;
+}
+
+.scrolling-into-view {
+  background-color: rgb(2, 21, 67);
+  color: white;
+}
+
+/* Other Styles */
+
+.text {
+  opacity: 0;
+}
+
+.animated-heading {
+  opacity: 1;
+  transition: opacity 5s ease-out;
+}

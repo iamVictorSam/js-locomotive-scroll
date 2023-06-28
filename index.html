@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="locomotive-scroll.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div data-scroll-container>
+      <section
+        data-scroll-section
+        data-scroll
+        data-scroll-speed="2"
+        class="page-overlay"
+      >
+        <h1>Trying to overlay this a page?? 🤔</h1>
+      </section>
+
+      <section data-scroll-section class="sticky-scrolling" id="stick">
+        <h1 data-scroll data-scroll-target="#stick" data-scroll-sticky>
+          Hey!! This is Sticky🤩
+        </h1>
+      </section>
+
+      <section data-scroll-section class="parallax-scrolling">
+        <h1
+          data-scroll
+          data-scroll-direction="horizontal"
+          data-scroll-speed="-20"
+        >
+          Hey I'm going Horizontally 👉🏻
+        </h1>
+        <h1 data-scroll data-scroll-direction="vertical" data-scroll-speed="8">
+          Hey I'm going vertically 👆🏻
+        </h1>
+      </section>
+
+      <section data-scroll-section data-scroll class="scrolling-into-view">
+        <h1
+          data-scroll
+          data-scroll-repeat="true"
+          data-scroll-class="animated-heading"
+          data-scroll-speed="5"
+          class="text"
+        >
+          I just scrolled this into View🤯
+        </h1>
+      </section>
+    </div>
+    <script type="module" src="/index.js"></script>
+  </body>
+</html>
