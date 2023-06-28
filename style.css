@@ -113,10 +113,15 @@ body {
   cursor: pointer;
 }
 
+
+/* Other styles */
+
 .form-field,
 .form-btn {
   opacity: 0;
 }
+
+
 
 .animated-form {
   opacity: 1;

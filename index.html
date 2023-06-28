@@ -2,118 +2,49 @@
 <html>
   <head>
     <title>Image Gallery with Locomotive Scroll</title>
-
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="locomotive-scroll.css" />
   </head>
   <body>
-    <div data-scroll-container>
-      <section data-scroll-section 
-      data-scroll-section
-      data-scroll
-      data-scroll-speed="-5" class="welcome">
+    <div>
+      <section class="welcome">
         <h1>
           Welcome to my<br />
           <p>Gallery Application</p>
         </h1>
       </section>
 
-      <section data-scroll-section id="sticky" class="section">
+      <section id="sticky" class="section">
         <div class="text-container">
-          <h1 data-scroll data-scroll-target="#sticky" data-scroll-sticky>
-            Image Gallery
-          </h1>
-          <p data-scroll data-scroll-target="#sticky" data-scroll-sticky>
-            Keep Scrolling to Enjoy Locomotive Effects
-          </p>
+          <h1>Image Gallery</h1>
+          <p>Keep Scrolling to Enjoy Locomotive Effects</p>
         </div>
 
         <div class="image-container">
-          <img
-            data-scroll
-            data-scroll-speed="3"
-            src="https://picsum.photos/id/237/400/300"
-            alt="Image 1"
-          />
-
-          <img
-            data-scroll
-            data-scroll-speed="7"
-            src="https://picsum.photos/id/238/400/300"
-            alt="Image 2"
-          />
-
-          <img
-            data-scroll
-            data-scroll-speed="3"
-            src=" https://picsum.photos/id/239/400/300"
-            alt="Image 3"
-          />
-
-          <img
-            data-scroll
-            data-scroll-speed="7"
-            src="https://picsum.photos/id/241/400/300"
-            alt="Image 4"
-          />
+          <img src="https://picsum.photos/id/237/400/300" alt="Image 1" />
+          <img src="https://picsum.photos/id/238/400/300" alt="Image 2" />
+          <img src=" https://picsum.photos/id/239/400/300" alt="Image 3" />
+          <img src="https://picsum.photos/id/241/400/300" alt="Image 4" />
         </div>
       </section>
 
-      <section data-scroll-section class="section">
+      <section class="section">
         <div class="text-container"></div>
 
-        <div data-scroll data-scroll-speed="9" class="image-container">
-          <img
-            data-scroll
-            data-scroll-speed="7"
-            src="https://picsum.photos/id/240/400/300"
-            alt="Image 5"
-          />
-
-          <img
-            data-scroll
-            data-scroll-speed="3"
-            src="https://picsum.photos/id/242/400/300"
-            alt="Image 6"
-          />
-
-          <img
-            data-scroll
-            data-scroll-speed="7"
-            src=" https://picsum.photos/id/243/400/300"
-            alt="Image 7"
-          />
-
-          <img
-            data-scroll
-            data-scroll-speed="3"
-            src="https://picsum.photos/id/244/400/300"
-            alt="Image 8"
-          />
+        <div class="image-container">
+          <img src="https://picsum.photos/id/240/400/300" alt="Image 5" />
+          <img src="https://picsum.photos/id/242/400/300" alt="Image 6" />
+          <img src=" https://picsum.photos/id/243/400/300" alt="Image 7" />
+          <img src="https://picsum.photos/id/244/400/300" alt="Image 8" />
         </div>
       </section>
 
-      <section data-scroll-section class="contact-section">
-        <h2
-          data-scroll
-          data-scroll-direction="horizontal"
-          data-scroll-speed="-2"
-        >
-          Contact Us
-        </h2>
-        <p data-scroll data-scroll-direction="vertical" data-scroll-speed="3">
+      <section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>
           We would love to hear from you. Fill out the form below and we'll get
           back to you as soon as possible.
         </p>
-        <form
-          class="form-field contact-form"
-          data-scroll
-          data-scroll-repeat="true"
-          data-scroll-class="animated-form"
-          data-scroll-speed="3"
-          action="#"
-          method="POST"
-        >
+        <form class="contact-form" action="#" method="POST">
           <input type="text" name="name" placeholder="Your Name" required />
           <input type="text" name="email" placeholder="Your Email" required />
           <textarea
@@ -122,16 +53,7 @@
             required
           ></textarea>
         </form>
-        <button
-          class="form-btn"
-          data-scroll
-          data-scroll-repeat="true"
-          data-scroll-class="animated-btn"
-          data-scroll-speed="2"
-          type="submit"
-        >
-          Send Message
-        </button>
+        <button type="submit">Send Message</button>
       </section>
     </div>
 
