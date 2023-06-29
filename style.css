@@ -114,21 +114,3 @@ body {
 }
 
 
-/* Other styles */
-
-.form-field,
-.form-btn {
-  opacity: 0;
-}
-
-
-
-.animated-form {
-  opacity: 1;
-  transition: opacity 3s ease-out;
-}
-
-.animated-btn {
-  opacity: 1;
-  transition: opacity 7s ease-out;
-}
